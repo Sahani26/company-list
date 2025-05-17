@@ -72,7 +72,7 @@
                 card.className = 'card';
 
                 card.innerHTML = `
-          <h3>${company.name || "(No Name)"}</h3>
+          <a href="${company.name}">${company.name || "(No Name)"}</a>
           <p><strong>Type:</strong> ${company.type || "-"}</p>
           <p><strong>Vacancy:</strong> ${company.vacancy || "-"}</p>
           <p><strong>Apply:</strong> ${company.apply || "-"}</p>
